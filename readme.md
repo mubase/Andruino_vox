@@ -9,6 +9,8 @@ The Android GUI consists of two screens:
 1 for the synthesizer consisting of a rudimentary musical keyboard of 2 octaves and a series of sliders for controlling the voice parameters of envelope, LFO, gains and ratio for all 4 FM operators. The sequencer screen contains a 16 x 16 matrix grid. Sequences are programmed by pressing on the cells of the grid, the Y-axis of which denotes the pitch of the note which is mapped on the Y-axis from the bottom upwards. The buttons start and stop the sequencer, and change the wave shape of the LFO. The sliders control the speed, octave and number od sequencer steps.
 
 
+This program uses the Ketai library from Daniel Sauter and the ControlP5 graphics controller library.
+
 I do intend to port this code to the DUE at some point and maybe the STM32 NUCLEO L152RE....
 Any questions, email : defacato@gmail.com
   
